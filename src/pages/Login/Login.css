@@ -1,9 +1,9 @@
 .login{
     height: 100vh;
-    background: url('../../assets/background_banner.jpg');
+    background-image: linear-gradient(#0000007e,#0000007e) ,url('../../assets/background_banner.jpg');
     background-size: cover;
     /* background-position: center; */
-    padding: 10px 6%;
+    padding: 20px 8%;
 }
 .login img{
     width: 150px;
@@ -12,14 +12,16 @@
     width: 100%;
     max-width: 450px;
     margin: 0 auto;
-    padding: 25px;
+    padding: 25px 40px;
     display: flex;
     flex-direction: column;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.75);
     border-radius: 5px;
 }
 .login-form h1{
-    font-size: 3rem;
+    font-size: 32px;
+    font-weight: 500;
+    /* margin-bottom: 28px; */
 }
 .login-form form{
     display: flex;
@@ -28,32 +30,37 @@
     width: 100%;
 }
 .login-form form input{
-    height: 40px;
+    height: 50px;
     border-radius: 4px;
     border: none;
     outline: none;
-    margin: 12px 0 12px 0;
-    font-size: 17px;
-    padding-left: 12px;
+    margin: 12px 0;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 16px 20px;
     /* background-color: #ffffffcb; */
 }    
 .login-form form input::placeholder{
     color: rgba(73, 73, 73, 0.863);
 }
 form button{
-    height: 40px;
+    height: 50px;
     border: none;
     border-radius: 4px;
     margin-top: 12px;
-    font-size: 17px;
+    font-size: 16px;
     color: white;
-    background: rgb(204, 4, 4);
+    font-weight: 500;
+    background: #e50914;
     cursor: pointer;
 }
 .form-help{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-size: 13px;
+    font-weight: 500;
+    color: #3b3b3b;
 }
 .form-help .inner-form-help{
     display: flex;
@@ -64,11 +71,13 @@ form button{
     cursor: pointer;
 }
 .login-form p{
-    font-size: 15px;
-    /* color: rgba(219, 219, 219, 0.911); */
+    font-size: 13px;
+    font-weight: 500;
+    color: #3b3b3b;
 }
 .login-form span{
     font-weight: 600;
-    color: rgb(14, 29, 245);
+    font-size: 13px;
     cursor: pointer;
+    color: #fff;
 }
